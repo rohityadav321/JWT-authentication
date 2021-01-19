@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'jwtAuth.wsgi.application'
 # restApi
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION': ('rest_framework.permission.IsAuthenticated',),
+
 }
 
 # Database
